@@ -2,7 +2,7 @@
 import java.util.*;
 
 
-class hello {
+class Bank {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter your name:");
@@ -13,7 +13,7 @@ class hello {
         int  pin=sc.nextInt();
         
 
-        System.out.println("enter your amount:");
+        System.out.print("enter your amount:");
       double amount=sc.nextDouble();
       String transaction="no transaction";
       while (true) {
@@ -132,37 +132,4 @@ class hello {
 
 
 
-//     import java.util.Scanner;
-
-// public class Main {
-//     public static void main(String[] args) {
-//       Scanner sc =new Scanner(System.in);
-//       System.out.println("enter the type of Room(single/double): ");
-//       String room=sc.nextLine();
-//       System.out.println("enter the how many days book the room:");
-//       int  days=sc.nextInt();
-     
-//       double roomcharge=0;
-
-     
-//       if(room.equalsIgnoreCase("single")){
-      
-//         roomcharge= days*1000;
-//     }
-//      else if(room.equalsIgnoreCase("double") ){
-// roomcharge=days*2000;}
-// else{
-//   System.out.println("give correct input");
-//   return;
-// }   
-// double gst=roomcharge*0.10;
-// double dicount=0;
-// if(days>=5){
-//   dicount=roomcharge*0.10;
-// }
-// double finalbill=roomcharge+gst-dicount;
-// System.out.println("romm charge:"+roomcharge);
-// System.out.println("gst:"+gst);
-// System.out.println("discound:"+dicount);
-// System.out.println("final bill: "+finalbill);
-// sc.close();}}
+ 
